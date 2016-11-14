@@ -1,5 +1,5 @@
 project	= pideck
-version	= alpha_20sept
+version	= staging
 arch	= armhf
 suite	= jessie
 source	= 64studio.com
@@ -14,7 +14,6 @@ components=\
 	$(source)/sshd.xml		\
 	$(source)/sudo.xml		\
 	$(source)/nano.xml		\
-	$(source)/usbmount.xml		\
 	$(source)/xorg.xml		\
 	$(source)/lxde.xml		\
 	$(source)/lightdm.xml		\
@@ -28,7 +27,7 @@ components=\
 
 picax_components=$(shell echo $(components) | tr " " ",")
 
-all: picax.xml repo image image-zip checksum
+all: picax.xml repo image image-zip checksum log
 
 clean:
 	rm -rf picax.xml images/
