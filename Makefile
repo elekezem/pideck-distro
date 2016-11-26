@@ -10,7 +10,6 @@ picax_meta=\
 components=\
 	$(source)/minimal.xml		\
 	$(source)/rpi.xml		\
-	$(source)/python.xml		\
 	$(source)/sshd.xml		\
 	$(source)/sudo.xml		\
 	$(source)/nano.xml		\
@@ -18,11 +17,6 @@ components=\
 	$(source)/lxde.xml		\
 	$(source)/lightdm.xml		\
 	$(source)/lxterminal.xml	\
-	$(source)/alsa.xml		\
-	$(source)/alsamixergui.xml	\
-	$(source)/jackd2.xml		\
-	$(source)/qjackctl.xml		\
-	$(source)/xwax.xml		\
 	$(source)/pideck.xml
 
 picax_components=$(shell echo $(components) | tr " " ",")
