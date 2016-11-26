@@ -105,7 +105,7 @@ xwax_deps=minimal.xml alsa.xml
 xwax_pkgs=xwax,libav-tools,mpg123,cdparanoia,id3v2,flac,vorbis-tools
 xwax_exclude=
 
-pideck_deps=minimal.xml alsa.xml jackd2.xml xwax.xml
+pideck_deps=minimal.xml
 pideck_pkgs=pideck
 pideck_exclude=
 

@@ -17,6 +17,7 @@ components=\
 	$(source)/lxde.xml		\
 	$(source)/lightdm.xml		\
 	$(source)/lxterminal.xml	\
+	$(source)/xwax.xml		\
 	$(source)/pideck.xml
 
 picax_components=$(shell echo $(components) | tr " " ",")
