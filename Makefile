@@ -34,9 +34,7 @@ repo:
 	pdk repogen -o images/$(project)_master.apt picax.xml
 
 image:
-	#sudo ./build-image-rpi $(project) images/$(project)_master.apt $(suite) $(arch) images/$(project)-$(version).img
-	
-	sudo /home/chris/projects/rpi/support/pifactory/pifactory $(project) $(suite) images/$(project)-$(version).img images/$(project)_master.apt 
+	sudo ~/pifactory/pifactory $(project) $(suite) images/$(project)-$(version).img images/$(project)_master.apt 
 
 image-zip:
 	zip -j images/$(project)-$(version).img.zip images/$(project)-$(version).img
